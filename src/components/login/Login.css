@@ -1,0 +1,13 @@
+.text {
+    background-color: black;
+}
+
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.forget-text {
+    margin: 10px;
+}
