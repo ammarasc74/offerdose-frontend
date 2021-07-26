@@ -1,0 +1,28 @@
+.dashboard-title {
+    padding: 20px;
+    width: 95%;
+    color: rgb(10, 10, 10);
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    padding-bottom: 50px;
+}
+
+
+.dashboard-section {
+    padding-bottom: 50px;
+}
+
+.partners-section {
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.home {
+    padding: 40px;
+}

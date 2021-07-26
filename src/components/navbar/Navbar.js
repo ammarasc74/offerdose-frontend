@@ -17,9 +17,9 @@ function Navbar() {
                         </Link>
                     </div>
                     <div className="navbar-menu">
-                        <Link to="/dashboard" className="nav">Dashboard</Link>
-                        <Link to="/features" className="nav">Features</Link>
-                        <Link to="/support" className="nav">Support</Link>
+                        <Link to="/" className="nav">Dashboard</Link>
+                        <Link to="/" className="nav">Features</Link>
+                        <Link to="/" className="nav">Support</Link>
                     </div>
                 </div>
             </nav>
