@@ -19,7 +19,9 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.buttom {
+.button {
+    padding: 10px;
+    margin: 10px;
     display: flex;
     width: 50%;
     font-family:  Arial;
@@ -27,7 +29,7 @@
     flex-direction: column;
 }
 
-.buttom1 {
+.button1 {
     display: inline-block;
     margin: 5px;
     background-color: #000000;
@@ -36,7 +38,7 @@
     border: none;
     border-radius: 25px;
 }
-.buttom2 {
+.button2 {
     border-radius: 25px;
     margin: 5px;
     color: rgb(0, 0, 0);

@@ -2,7 +2,8 @@ import React, { useCallback } from 'react';
 import { useHistory } from 'react-router-dom';
 import LoginForm from '../login/LoginForm';
 import './Cover.css';
-import SignUpForm from '../signup/SignUpForm';
+// import SignUpForm from '../signup/SignUpForm';
+import Button from '@material-ui/core/Button';
 
 
 function Cover() {
@@ -16,13 +17,9 @@ function Cover() {
                     <div className="title">
                         <h1>Manage all your offers and items from one place.</h1>
                     </div>
-                    <div className="buttom">
-                        <button className="buttom1" type="button" onClick={loginOnClick}>
-                            Login
-                        </button>
-                        <button className="buttom2" type="button" onClick={signUpOnClick}>
-                            Signup
-                        </button>
+                    <div className="button">
+                        <Button className="button1" variant="outlined" color="black" onClick={loginOnClick}>Login</Button>
+                        <Button variant="outlined" onClick={signUpOnClick}>Signup</Button>
                     </div>
                     <div>
                         <div>
@@ -30,29 +27,25 @@ function Cover() {
                                 Hello Merchant!
                             </h1>
                         </div>
-                        <div className="buttom">
+                        <div className="button">
                             <LoginForm />
                         </div>
-                        <div className="buttom">
-                            <button className="buttom1" type="button">
-                                Login
-                            </button>
+                        <div className="button">
+                            <Button variant="outlined">Login</Button>
                         </div>
                     </div>
                     <div>
-                        <div>
+                        {/* <div>
                             <h1>
                                 Welcome Merchant
                             </h1>
-                            <div className="buttom">
+                            <div className="button">
                                 <SignUpForm />
                             </div>
-                            <div className="buttom">
-                                <button className="buttom1" type="button">
-                                    Signup
-                                </button>
+                            <div className="button">
+                                <Button variant="outlined" >Signup</Button>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div className="header-image">
