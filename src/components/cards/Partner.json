@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "title": "Partner 1",
+        "description": "The data will be appear here soon."
+    },
+    {
+        "id": 2,
+        "title": "Partner 2",
+        "description": "The data will be appear here soon."
+    },
+    {
+        "id": 3,
+        "title": "Partner 3",
+        "description": "The data will be appear here soon."
+    },
+    {
+        "id": 4,
+        "title": "Partner 4",
+        "description": "The data will be appear here soon."
+    },
+    {
+        "id": 5,
+        "title": "Partner 5",
+        "description": "The data will be appear here soon."
+    }
+]
