@@ -1,36 +1,48 @@
 .navbar {
-    padding:15px;
-    padding-bottom: 50px;
+  padding-bottom: 30px;
+  width: 100%;
 }
-
 
 .nav-logo {
-    display: flex;
-    width: 95%;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .navbar-logo {
-    font-size: 30px;
-    color: rgb(10, 10, 10);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-decoration: none;
-    padding: 10px;
+  display: flex;
+  font-size: 30px;
+  color: rgb(10, 10, 10);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.img-logo {
+  margin-right: 10px;
 }
 
 .navbar-menu {
-    display: flex;
-    margin-right: 15px;
-    align-items: center;
-    flex-direction: row;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  margin-right: 15px;
+  align-items: center;
+  flex-direction: row;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .nav {
-    padding: 10px;
-    font-size: 18px;
-    color: black;
-    text-decoration: none;
+  padding-left: 70px;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
 }
 
-
-
+@media only screen and (max-width: 800px) {
+  .nav {
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .nav-logo {
+    display: flex;
+    flex-direction: column;
+  }
+}
