@@ -8,7 +8,7 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="nav-logo">
-          <Link to="/" className="navbar-logo">
+          <Link to="/offerdose-frontend/" className="navbar-logo">
             <div className="img-logo">
               <Avatar
                 alt="Remy Sharp"
@@ -18,13 +18,13 @@ function Navbar() {
             OfferDose
           </Link>
           <div className="navbar-menu">
-            <Link to="/" className="nav">
+            <Link to="/offerdose-frontend/" className="nav">
               Dashboard
             </Link>
-            <Link to="/" className="nav">
+            <Link to="/offerdose-frontend/" className="nav">
               Features
             </Link>
-            <Link to="/" className="nav">
+            <Link to="/offerdose-frontend/" className="nav">
               Support
             </Link>
           </div>

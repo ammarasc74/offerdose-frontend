@@ -99,7 +99,8 @@ function SignUpForm() {
           )}
         </div>
         <h4 className="forget-text">
-          Do you have an account? <Link to="/login">Log In</Link>{" "}
+          Do you have an account?{" "}
+          <Link to="/offerdose-frontend/login">Log In</Link>{" "}
         </h4>
       </form>
     </div>

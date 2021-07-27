@@ -81,7 +81,8 @@ function LoginForm() {
       </form>
       <div className="forget-text">
         <h4>
-          Don't have an account ? <Link to="/signup">Create New Account</Link>{" "}
+          Don't have an account ?{" "}
+          <Link to="/offerdose-frontend/signup">Create New Account</Link>{" "}
         </h4>
       </div>
     </div>

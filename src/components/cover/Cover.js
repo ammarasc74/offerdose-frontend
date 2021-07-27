@@ -7,8 +7,14 @@ import Button from "@material-ui/core/Button";
 
 function Cover() {
   const history = useHistory();
-  const loginOnClick = useCallback(() => history.push("/login"), [history]);
-  const signUpOnClick = useCallback(() => history.push("/signup"), [history]);
+  const loginOnClick = useCallback(
+    () => history.push("/offerdose-frontend/login"),
+    [history]
+  );
+  const signUpOnClick = useCallback(
+    () => history.push("/offerdose-frontend/signup"),
+    [history]
+  );
 
   useEffect(() => {
     console.log(history.location.pathname);
@@ -16,13 +22,13 @@ function Cover() {
   return (
     <div className="header">
       <div className="wrapper">
-        {history.location.pathname === "/login" ? (
+        {history.location.pathname === "/offerdose-frontend/login" ? (
           <>
             <div className="button">
               <LoginForm />
             </div>
           </>
-        ) : history.location.pathname === "/signup" ? (
+        ) : history.location.pathname === "/offerdose-frontend/signup" ? (
           <>
             <div className="button">
               <SignUpForm />
