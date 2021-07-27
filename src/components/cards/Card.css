@@ -1,0 +1,11 @@
+.card {
+  margin: 20px;
+  display: grid;
+}
+
+.card-text {
+  text-align: center;
+  font-size: 12px;
+  color: rgb(10, 10, 10, 70%);
+  font-family: Arial;
+}
