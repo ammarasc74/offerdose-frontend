@@ -1,52 +1,125 @@
 .cover {
-    padding: 30px;
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .wrapper {
-    width: 50%;
+  width: 50%;
 }
 
-
 .title {
-    display: flex;
-    font-size: 28px;
-    align-items: center;
-    width: 95%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  font-size: 25px;
+  align-items: center;
+  width: 95%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.header-image {
 }
 
 .button {
-    padding: 10px;
-    margin: 10px;
-    display: flex;
-    width: 50%;
-    font-family:  Arial;
-    justify-content: space-around;
-    flex-direction: column;
+  margin: 10px;
+  display: flex;
+  width: 50%;
+  font-family: Arial;
+  justify-content: space-around;
+  flex-direction: column;
 }
 
-.button1 {
-    display: inline-block;
-    margin: 5px;
-    background-color: #000000;
-    color: rgb(255, 255, 255);
-    padding: 5px;
-    border: none;
-    border-radius: 25px;
+.login-button {
+  padding: "8px";
+  margin: "10px";
+  background-color: "black";
+  color: "white";
 }
-.button2 {
-    border-radius: 25px;
-    margin: 5px;
-    color: rgb(0, 0, 0);
-    background-color: #ffffff;
-    padding: 5px;
-    border: none;
-    box-shadow: 0 8px 16px 0 rgba(93, 93, 93, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+.signup-button {
+  padding: "8px";
+  margin: "10px";
+  background-color: "black";
+  color: "white";
+}
+
+@media only screen and (max-width: 500px) {
+  .title {
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .title {
+    display: flex;
+    margin: 10px;
+    font-size: 12px;
+    align-content: center;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .button {
+    margin: 10px;
+    font-family: Arial;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    justify-items: center;
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .header-image {
+    display: flex;
+    max-width: 300px;
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .header-image {
+    display: flex;
+    max-width: 900px;
+    max-height: 350px;
+    flex-direction: column;
+  }
 }
