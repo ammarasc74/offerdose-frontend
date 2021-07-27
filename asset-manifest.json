@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/offerdose/static/css/main.2729d439.chunk.css",
+    "main.js": "/offerdose/static/js/main.daa7c566.chunk.js",
+    "main.js.map": "/offerdose/static/js/main.daa7c566.chunk.js.map",
+    "runtime-main.js": "/offerdose/static/js/runtime-main.74bcdaf5.js",
+    "runtime-main.js.map": "/offerdose/static/js/runtime-main.74bcdaf5.js.map",
+    "static/css/2.6d7c7915.chunk.css": "/offerdose/static/css/2.6d7c7915.chunk.css",
+    "static/js/2.da8738a6.chunk.js": "/offerdose/static/js/2.da8738a6.chunk.js",
+    "static/js/2.da8738a6.chunk.js.map": "/offerdose/static/js/2.da8738a6.chunk.js.map",
+    "index.html": "/offerdose/index.html",
+    "static/css/2.6d7c7915.chunk.css.map": "/offerdose/static/css/2.6d7c7915.chunk.css.map",
+    "static/css/main.2729d439.chunk.css.map": "/offerdose/static/css/main.2729d439.chunk.css.map",
+    "static/js/2.da8738a6.chunk.js.LICENSE.txt": "/offerdose/static/js/2.da8738a6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.74bcdaf5.js",
+    "static/css/2.6d7c7915.chunk.css",
+    "static/js/2.da8738a6.chunk.js",
+    "static/css/main.2729d439.chunk.css",
+    "static/js/main.daa7c566.chunk.js"
+  ]
+}
