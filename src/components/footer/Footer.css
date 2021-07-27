@@ -1,59 +1,179 @@
 .footer {
-    width: 100%;
-    background-color: black;
+  display: grid;
+  width: 100%;
+  padding: 20px;
+  background-color: rgb(0, 0, 0);
 }
 
 .footer-title {
-    text-align: center;
-    padding: 25px;
-    color: white;
-    font-family: Arial;
-    font-weight: normal;
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  font-family: Arial;
+  font-weight: normal;
 }
 
 .footer-data {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    flex-direction: row;
-    padding: 50px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 50px;
 }
 
 .footer-text {
-    font-size: 8px;
-    font-weight: normal !important;
-    color: rgb(255, 255, 255);
-    font-family: Arial;
-    padding-left: 200px;
+  font-size: 8px;
+  font-weight: normal !important;
+  color: rgb(255, 255, 255);
+  font-family: Arial;
+  padding-left: 300px;
 }
 
-
 .footer-left-side {
-    display: flex;
-    flex-direction: row;
-    padding: 20px;
-    font-size: 8px;
-    font-weight: normal !important;
-    color: rgb(255, 255, 255);
-    font-family: Arial;
-    
+  display: flex;
+  padding: 50px;
+  flex-direction: row;
+  font-size: 8px;
+  font-family: Arial;
+  font-weight: normal !important;
+  color: rgb(255, 255, 255);
 }
 
 .footer-search {
-    font-size: 12px;
-    font-weight: normal !important;
-    color: white;
-    font-family: Arial;
-    padding-right: 70px;
+  font-size: 12px;
+  font-weight: normal !important;
+  color: white;
+  font-family: Arial;
+  padding: 50px;
 }
 
 .footer-logo {
-    display: flex;
-    width: 95%;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  padding-top: 15px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.left {
-    justify-content: space-between;
+.search {
+  display: flex;
+  padding: auto;
+  flex-direction: row;
+}
+
+.search-btn {
+  padding-left: 20px;
+}
+
+.textfield {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  max-width: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(170, 150, 150, 0%);
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 500) {
+  .footer-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .footer-data {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .footer-left-side {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .numbers {
+    display: flex;
+    flex-direction: row;
+
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .footer-logo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .footer-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .textfield {
+    color: rgb(255, 255, 255);
+    max-width: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(170, 150, 150, 0%);
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .footer-left-side {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .numbers {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .footer-logo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .footer-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+  }
 }
