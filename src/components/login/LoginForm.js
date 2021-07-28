@@ -29,7 +29,7 @@ function LoginForm() {
       });
   };
   return (
-    <div>
+    <div className="form">
       <h1>Hello Merchant!</h1>
       <form className="form-container">
         <TextField
@@ -79,7 +79,7 @@ function LoginForm() {
           )}
         </div>
       </form>
-      <div className="forget-text">
+      <div className="have-acc-text">
         <h4>
           Don't have an account ?{" "}
           <Link to="/offerdose-frontend/signup">Create New Account</Link>{" "}

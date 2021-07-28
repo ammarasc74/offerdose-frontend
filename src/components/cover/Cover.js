@@ -24,13 +24,13 @@ function Cover() {
       <div className="wrapper">
         {history.location.pathname === "/offerdose-frontend/login" ? (
           <>
-            <div className="button">
+            <div className="form">
               <LoginForm />
             </div>
           </>
         ) : history.location.pathname === "/offerdose-frontend/signup" ? (
           <>
-            <div className="button">
+            <div className="form">
               <SignUpForm />
             </div>
           </>
@@ -39,7 +39,7 @@ function Cover() {
             <div className="title">
               <h1>Manage all your offers and items from one place.</h1>
             </div>
-            <div className="button">
+            <div className="form">
               <Button
                 style={{
                   padding: "8px",
@@ -68,7 +68,6 @@ function Cover() {
       </div>
       <div className="header-image">
         <img
-          class="grid-item"
           src="https://c.top4top.io/p_2034kwkll1.jpg"
           alt=""
           width="900"

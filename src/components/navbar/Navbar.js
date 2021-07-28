@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <>
       <nav className="navbar">
-        <div className="nav-logo">
+        <div className="nav-contaier">
           <Link to="/offerdose-frontend/" className="navbar-logo">
             <div className="img-logo">
               <Avatar
@@ -18,13 +18,13 @@ function Navbar() {
             OfferDose
           </Link>
           <div className="navbar-menu">
-            <Link to="/offerdose-frontend/" className="nav">
+            <Link to="/offerdose-frontend/" className="menu">
               Dashboard
             </Link>
-            <Link to="/offerdose-frontend/" className="nav">
+            <Link to="/offerdose-frontend/" className="menu">
               Features
             </Link>
-            <Link to="/offerdose-frontend/" className="nav">
+            <Link to="/offerdose-frontend/" className="menu">
               Support
             </Link>
           </div>

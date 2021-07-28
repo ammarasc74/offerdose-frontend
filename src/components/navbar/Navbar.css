@@ -3,7 +3,7 @@
   width: 100%;
 }
 
-.nav-logo {
+.nav-contaier {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,7 +28,7 @@
   flex-direction: row;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.nav {
+.menu {
   padding-left: 70px;
   font-size: 18px;
   color: black;
@@ -36,12 +36,12 @@
 }
 
 @media only screen and (max-width: 800px) {
-  .nav {
+  .menu {
     padding: 20px;
   }
 }
 @media only screen and (max-width: 800px) {
-  .nav-logo {
+  .nav-contaier {
     display: flex;
     flex-direction: column;
   }
