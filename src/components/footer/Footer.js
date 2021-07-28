@@ -17,9 +17,9 @@ export default function Footer() {
         <div className="footer-data">
           <div className="footer-left-side">
             <div className="numbers">
-              <h2>(+20) xxx xxx xxx</h2>
-              <h2>(+20) xxx xxx xxx</h2>
-              <h2>(+20) xxx xxx xxx</h2>
+              <h2>(+20)xxxxxxxxx</h2>
+              <h2>(+20)xxxxxxxxx</h2>
+              <h2>(+20)xxxxxxxxx</h2>
               <div className="footer-logo">
                 <InstagramIcon />
                 <FacebookIcon />
