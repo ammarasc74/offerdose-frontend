@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/offerdose-frontend/static/css/main.9b9063c9.chunk.css",
-    "main.js": "/offerdose-frontend/static/js/main.d283f21e.chunk.js",
-    "main.js.map": "/offerdose-frontend/static/js/main.d283f21e.chunk.js.map",
+    "main.css": "/offerdose-frontend/static/css/main.50f31419.chunk.css",
+    "main.js": "/offerdose-frontend/static/js/main.11e2d70e.chunk.js",
+    "main.js.map": "/offerdose-frontend/static/js/main.11e2d70e.chunk.js.map",
     "runtime-main.js": "/offerdose-frontend/static/js/runtime-main.12914c85.js",
     "runtime-main.js.map": "/offerdose-frontend/static/js/runtime-main.12914c85.js.map",
     "static/css/2.31461e4f.chunk.css": "/offerdose-frontend/static/css/2.31461e4f.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.f3100db0.chunk.js.map": "/offerdose-frontend/static/js/2.f3100db0.chunk.js.map",
     "index.html": "/offerdose-frontend/index.html",
     "static/css/2.31461e4f.chunk.css.map": "/offerdose-frontend/static/css/2.31461e4f.chunk.css.map",
-    "static/css/main.9b9063c9.chunk.css.map": "/offerdose-frontend/static/css/main.9b9063c9.chunk.css.map",
+    "static/css/main.50f31419.chunk.css.map": "/offerdose-frontend/static/css/main.50f31419.chunk.css.map",
     "static/js/2.f3100db0.chunk.js.LICENSE.txt": "/offerdose-frontend/static/js/2.f3100db0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.12914c85.js",
     "static/css/2.31461e4f.chunk.css",
     "static/js/2.f3100db0.chunk.js",
-    "static/css/main.9b9063c9.chunk.css",
-    "static/js/main.d283f21e.chunk.js"
+    "static/css/main.50f31419.chunk.css",
+    "static/js/main.11e2d70e.chunk.js"
   ]
 }
