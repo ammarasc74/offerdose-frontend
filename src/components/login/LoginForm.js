@@ -30,10 +30,14 @@ function LoginForm() {
   };
   return (
     <div className="form">
-      <h1>Hello Merchant!</h1>
-      <form className="form-container">
+      <h1 className="login-form-title">Hello Merchant!</h1>
+      <form>
         <TextField
-          style={{ padding: "10px", border: "red", width: "400px" }}
+          style={{
+            padding: "10px",
+            maxWidth: "400px",
+            width: "300px",
+          }}
           value={email}
           required
           id="standard-required"
@@ -42,7 +46,7 @@ function LoginForm() {
           onChange={(e) => setEmail(e.target.value)}
         />
         <TextField
-          style={{ padding: "10px", width: "400px" }}
+          style={{ padding: "10px", maxWidth: "400px", width: "300px" }}
           required
           value={password}
           id="standard-required"
@@ -54,7 +58,7 @@ function LoginForm() {
         <div className="forgetten-text">
           <Link to="/login">Forgotten password?</Link>
         </div>
-        <div>
+        <div className="button">
           {loading === true ? (
             <CircularProgress
               style={{
@@ -66,10 +70,10 @@ function LoginForm() {
           ) : (
             <Button
               style={{
+                display: "flex",
+                justifyContent: "center",
                 backgroundColor: "black",
-                paddingRight: "10px",
                 color: "white",
-                alignItems: "center",
               }}
               variant="outlined"
               onClick={() => loginRequest()}
@@ -78,13 +82,13 @@ function LoginForm() {
             </Button>
           )}
         </div>
+        <div className="have-acc-text">
+          <h4>
+            Don't have an account ?{" "}
+            <Link to="/offerdose-frontend/signup">Create New Account</Link>{" "}
+          </h4>
+        </div>
       </form>
-      <div className="have-acc-text">
-        <h4>
-          Don't have an account ?{" "}
-          <Link to="/offerdose-frontend/signup">Create New Account</Link>{" "}
-        </h4>
-      </div>
     </div>
   );
 }

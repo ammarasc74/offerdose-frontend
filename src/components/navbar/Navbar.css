@@ -3,7 +3,7 @@
   width: 100%;
 }
 
-.nav-contaier {
+.nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,19 +30,78 @@
 }
 .menu {
   padding-left: 70px;
-  font-size: 18px;
+  font-size: 16px;
   color: black;
   text-decoration: none;
 }
 
-@media only screen and (max-width: 800px) {
-  .menu {
-    padding: 20px;
+/* FOR SCREEN MAX WIDTH 375px*/
+@media only screen and (max-width: 375px) {
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
   }
 }
-@media only screen and (max-width: 800px) {
-  .nav-contaier {
+
+@media only screen and (max-width: 375px) {
+  .nav-container {
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .navbar-menu {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-right: 30px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .menu {
+    display: flex;
+    font-size: 4px;
+    color: black;
+    text-decoration: none;
+  }
+}
+
+/* FOR SCREEN MAX WIDTH 500px */
+@media only screen and (max-width: 500px) {
+  .navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .nav-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .navbar-menu {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .menu {
+    display: flex;
+    padding-left: 60px;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
   }
 }

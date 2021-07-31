@@ -1,13 +1,7 @@
-.form-container {
-  width: 100%;
+.button {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 10px;
-}
-
-.TextField {
-  padding: 5px;
+  justify-content: center;
+  padding-top: 10px;
 }
 
 .forget-text {
@@ -15,4 +9,60 @@
   font-size: 12px;
   display: flex;
   justify-content: center;
+}
+
+.have-acc-text {
+  display: flex;
+  font-size: 12px;
+  width: 400px;
+  padding-left: 70px;
+}
+
+.signup-form-title {
+  font-size: 34px;
+  width: 300px;
+}
+
+/* FOR SCREEN MAX WIDTH 375px*/
+@media only screen and (max-width: 375px) {
+  .signup-form-title {
+    padding-top: 80px;
+    font-size: 28px;
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .have-acc-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    width: 400px;
+    padding-right: 70px;
+  }
+}
+
+/* FOR SCREEN MAX WIDTH 500px*/
+@media only screen and (max-width: 500px) {
+  .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .have-acc-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    width: 400px;
+    padding-right: 70px;
+  }
 }

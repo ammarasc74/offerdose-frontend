@@ -14,7 +14,7 @@
   display: grid;
   flex-direction: row;
   justify-content: center;
-  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 .partners-title {
   padding: 50px;
@@ -27,19 +27,45 @@
 .partners-section {
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   justify-content: center;
   padding-bottom: 50px;
 }
 
-.navbar {
-  padding-bottom: none;
+@media only screen and (max-width: 500px) {
+  .dashboard-title {
+    padding-top: 300px;
+    text-align: center;
+    width: 100%;
+    color: rgb(10, 10, 10);
+    font-family: Arial, sans-serif;
+  }
 }
 
 @media only screen and (max-width: 500px) {
-  .cover {
-    display: flex;
+  .dashboard-section {
+    display: grid;
     flex-direction: row;
-    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .partners-title {
+    padding-top: 100px;
+    text-align: center;
+    width: 100%;
+    color: rgb(10, 10, 10);
+    font-family: Arial, sans-serif;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .partners-section {
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   }
 }

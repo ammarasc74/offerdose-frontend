@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <>
       <nav className="navbar">
-        <div className="nav-contaier">
+        <div className="nav-container">
           <Link to="/offerdose-frontend/" className="navbar-logo">
             <div className="img-logo">
               <Avatar

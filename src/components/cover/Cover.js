@@ -20,7 +20,7 @@ function Cover() {
     console.log(history.location.pathname);
   });
   return (
-    <div className="header">
+    <div className="cover">
       <div className="wrapper">
         {history.location.pathname === "/offerdose-frontend/login" ? (
           <>
@@ -66,12 +66,12 @@ function Cover() {
           </>
         )}
       </div>
-      <div className="header-image">
+      <div className="cover-image">
         <img
           src="https://c.top4top.io/p_2034kwkll1.jpg"
-          alt=""
-          width="900"
-          height="700"
+          alt="templateImage"
+          width="620px"
+          height="450px"
         />
       </div>
     </div>

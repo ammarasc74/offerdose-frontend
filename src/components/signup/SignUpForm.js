@@ -35,11 +35,15 @@ function SignUpForm() {
       });
   };
   return (
-    <div>
-      <h1>Join Now!</h1>
-      <form className="form-container">
+    <div className="form">
+      <h1 className="signup-form-title">Join Now!</h1>
+      <form>
         <TextField
-          style={{ padding: "10px", width: "400px" }}
+          style={{
+            padding: "10px",
+            maxWidth: "400px",
+            width: "300px",
+          }}
           value={name}
           required
           id="standard-required"
@@ -48,7 +52,11 @@ function SignUpForm() {
           onChange={(e) => setName(e.target.value)}
         />
         <TextField
-          style={{ padding: "10px", width: "400px" }}
+          style={{
+            padding: "10px",
+            maxWidth: "400px",
+            width: "300px",
+          }}
           value={email}
           required
           id="standard-required"
@@ -57,7 +65,11 @@ function SignUpForm() {
           onChange={(e) => setEmail(e.target.value)}
         />
         <TextField
-          style={{ padding: "10px", width: "400px" }}
+          style={{
+            padding: "10px",
+            maxWidth: "400px",
+            width: "300px",
+          }}
           value={password}
           type="password"
           required
@@ -67,7 +79,11 @@ function SignUpForm() {
           onChange={(e) => setPassword(e.target.value)}
         />
         <TextField
-          style={{ padding: "10px", width: "400px" }}
+          style={{
+            padding: "10px",
+            maxWidth: "400px",
+            width: "300px",
+          }}
           value={confirmPassword}
           type="password"
           required
@@ -76,7 +92,7 @@ function SignUpForm() {
           variant="outlined"
           onChange={(e) => setConfirmPassword(e.target.value)}
         />
-        <div>
+        <div className="button">
           {loading === true ? (
             <CircularProgress
               style={{
